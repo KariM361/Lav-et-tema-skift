@@ -1,4 +1,4 @@
-import style from "./Header.module.scss";
+import style from './Header.module.scss';
 
 interface HeaderProps {
   title: string;

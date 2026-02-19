@@ -16,6 +16,10 @@ function App() {
     "src/assets/Gaden-AKKC.jpg",
     "src/assets/husk-at-kysse-AKKC.jpg",
     "src/assets/stadion-AKKC.jpg",
+    "src/assets/randio-AKKC.jpg",
+    "src/assets/rich-guys-karolinelund.jpg",
+    "src/assets/Spray-dude-AKKC.jpg",
+
   ];
 
   const links = [
@@ -26,10 +30,10 @@ function App() {
 
 
   return (
-   <Wrapper isDark={isDark}>
+    <Wrapper isDark={isDark}>
       <Header
         title="StreetArt aalborg"
-        subtitle="streetart"
+        subtitle="Streetart"
       />
 
       <Theme

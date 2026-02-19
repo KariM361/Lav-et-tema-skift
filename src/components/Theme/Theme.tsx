@@ -1,4 +1,4 @@
-import style from "./Theme.module.scss";
+import style from './Theme.module.scss';
 
 interface ThemeProps {
   isDark: boolean;

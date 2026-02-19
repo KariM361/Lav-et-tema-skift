@@ -1,0 +1,106 @@
+
+.footer {
+  background-color: #fff7f0; // lys orange baggrund
+  border-top: 3px solid #ff7a00;
+  padding: 32px 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.columns {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.columns h3 {
+  margin-bottom: 12px;
+  color: #ff7a00;
+  font-size: 18px;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkList li {
+  margin-bottom: 6px;
+}
+
+.linkList a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.linkList a:hover {
+  color: #ff7a00;
+}
+
+.newsletter {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+
+.input {
+  padding: 8px 10px;
+  border: 1px solid #ffb066;
+  border-radius: 4px;
+  font-size: 14px;
+  flex: 1;
+  min-width: 160px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ff7a00;
+}
+
+/* Button */
+.button {
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e56700;
+}
+
+/* ===== Success message ===== */
+.message {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #e56700;
+}
+
+/*Responsive*/
+@media (max-width: 700px) {
+  .columns {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
